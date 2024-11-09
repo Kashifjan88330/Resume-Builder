@@ -1,10 +1,16 @@
-const toggleButton = document.getElementById("toggle-skills") as HTMLButtonElement;
-const skillsSection = document.getElementById("skills") as HTMLElement;
+const toggleButton = document.getElementById("toggleSkills") as HTMLButtonElement;
+const skillsSection = document.getElementById("skills") as HTMLDivElement;
 
-toggleButton.addEventListener("click", () => {
-  if (skillsSection.style.display === "none") {
-    skillsSection.style.display = "block";
+skillsSection.classList.remove("hidden");
+toggleButton.textContent = "Hide Skills";
+
+toggleButton.addEventListener("click", function() {
+
+  skillsSection.classList.toggle("hidden");
+
+  if (skillsSection.classList.contains("hidden")) {
+    toggleButton.textContent = "Show Skills";
   } else {
-    skillsSection.style.display = "none";
+    toggleButton.textContent = "Hide Skills";
   }
 });
