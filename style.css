@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    padding: 20px;
+  }
+  
+/* Container for the profile section */
+.profile-container {
+    display: flex;                /* Enable Flexbox */
+    justify-content: space-between; /* Spread items to left and right */
+    align-items: center;          /* Vertically align items to the center */
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Personal Info */
+  .personal-info {
+    max-width: 60%; /* Optional: You can control the width of the text area */
+  }
+  
+  /* Profile Picture */
+  .profile-pic img {
+    width: 150px;           /* Size the image */
+    height: 150px;          /* Make the image square */
+    border-radius: 50%;     /* Make it round */
+  }
+  
+  
+  h1 {
+    font-size: 2em;
+    margin: 10px 0;
+  }
+  
+  p {
+    color: #555;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #skills {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  #skills ul {
+    list-style: none;
+  }
+  
+  #skills ul li {
+    margin: 5px 0;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  @media (max-width: 768px) {
+    body {
+      padding: 10px;
+    }
+  
+    header {
+      margin-bottom: 20px;
+    }
+  
+    .profile img {
+      width: 100px;
+    }
+  
+    h1 {
+      font-size: 1.5em;
+    }
+  }
+  
