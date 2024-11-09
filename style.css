@@ -1,101 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
     font-family: Arial, sans-serif;
+    font-style: initial;
     line-height: 1.6;
     background-color: #f4f4f9;
     padding: 20px;
-  }
-  
-/* Container for the profile section */
+}
+
 .profile-container {
-    display: flex;                /* Enable Flexbox */
-    justify-content: space-between; /* Spread items to left and right */
-    align-items: center;          /* Vertically align items to the center */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
     margin-bottom: 20px;
-  }
-  
-  /* Personal Info */
-  .personal-info {
-    max-width: 60%; /* Optional: You can control the width of the text area */
-  }
-  
-  /* Profile Picture */
-  .profile-pic img {
-    width: 150px;           /* Size the image */
-    height: 150px;          /* Make the image square */
-    border-radius: 50%;     /* Make it round */
-  }
-  
-  
-  h1 {
+}
+
+.personal-info {
+    max-width: 60%;
+}
+
+.profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+h1 {
     font-size: 2em;
-    margin: 10px 0;
-  }
-  
-  p {
+    margin: 0px 0;
+}
+
+p {
     color: #555;
-  }
-  
-  section {
+}
+
+section {
     margin-bottom: 30px;
-  }
-  
-  h2 {
+}
+
+h2 {
     color: #333;
     border-bottom: 2px solid #ddd;
     padding-bottom: 5px;
     margin-bottom: 10px;
-  }
-  
-  #skills {
+}
+
+#skills {
     background-color: #f0f0f0;
     padding: 15px;
     border-radius: 8px;
-  }
-  
-  #skills ul {
+}
+
+#skills ul {
     list-style: none;
-  }
-  
-  #skills ul li {
+}
+
+#skills ul li {
     margin: 5px 0;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.hidden {
+    display: none;
   }
   
   button {
-    background-color: #4CAF50;
+    background-color: #4c93af;
     color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-    border-radius: 5px;
-    margin-top: 15px;
+    border-radius: 0px;
+    margin-bottom: 20px;
   }
   
   button:hover {
-    background-color: #45a049;
+    background-color: #c2a368;
   }
   
-  @media (max-width: 768px) {
-    body {
-      padding: 10px;
-    }
-  
-    header {
-      margin-bottom: 20px;
-    }
-  
-    .profile img {
-      width: 100px;
-    }
-  
-    h1 {
-      font-size: 1.5em;
-    }
-  }
-  
+#heading {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3em;
+  text-align: center;
+  color: #333;
+  margin: 20px 0;
+}
+
